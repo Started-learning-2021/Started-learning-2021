@@ -17,7 +17,7 @@ if __name__ == '__main__':
 
   for row in rows:
 
-    recipient = 'Health Service Email'
+    recipient = row['Health Service Email']
     title = f"{row['Health Service Name']}" + " - VHBA - RHIF R5 - Grant Program Kick-Off Meeting Request"
 
     # Construct the email
