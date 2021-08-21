@@ -43,4 +43,4 @@ if __name__ == '__main__':
     })
 
   # Write the email outputs
-  writeCSV(output, ['recipient'], ['title'], ['email'], 'RHIF R5 Emails.csv')
+  writeCSV(output, ['recipient', 'title', 'email'], 'RHIF R5 Emails.csv')
