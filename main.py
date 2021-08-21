@@ -2,7 +2,7 @@ from files import readCSV, writeCSV
 
 if __name__ == '__main__':
   # Read the rows
-  rows, fieldnames = readCSV('C:\\Users\\Ben\\Desktop\\Python\\Projects\\AutoEmail\\PersonalEmailsVHBA\\RHIF R5 Example HS List.csv')
+  rows, fieldnames = readCSV('RHIF R5 Example HS List.csv')
 
   # Print all row data
   for row in rows:
