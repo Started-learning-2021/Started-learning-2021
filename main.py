@@ -37,7 +37,7 @@ if __name__ == '__main__':
     
     # Add it to the output
     output.append({
-      'Health Service Email' : recipient,
+      'recipient' : recipient,
       'title': title, 
       'email': email 
     })
